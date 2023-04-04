@@ -8,6 +8,7 @@ package lesson29logic;
 配列番号で各フィールドに文字を入力。
 list型を利用し都道府県の情報をlistをする。
 
+
 */
 public class Lesson29logic {
 	private String name;

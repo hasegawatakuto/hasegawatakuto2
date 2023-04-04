@@ -9,5 +9,4 @@ public class L25main {
 		//scaner文を使い名前を入力することで各パラメーターを表示させる。
 		 System.out.println(new Sub(scanner.nextLine())); 
 		 }
-
 }

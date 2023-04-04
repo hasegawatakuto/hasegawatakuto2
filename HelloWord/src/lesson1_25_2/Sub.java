@@ -8,4 +8,5 @@ public class Sub extends Super {
 	 super(); 
 	 setName(name); 
 	 } 
+	 
 	}

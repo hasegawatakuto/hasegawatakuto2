@@ -3,7 +3,7 @@ import java.util.Random;
 //superクラスを作成
 public class Super {
 	
-     //基本的ステータス名を代入
+    //基本的ステータス名を代入
 	private String name; 
 	 private int HP; 
 	 private int MP; 
