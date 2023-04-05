@@ -1,3 +1,10 @@
+/*
+ * 問題1：インスタンスフィールドに「lastName」を追加しましょう
+問題2：lastNameの値を引数で受け取るコンストラクタを追加で定義してください
+※順番はfirstNameの次
+問題3：作成したコンストラクタの中に「Person.count++; this.lastName;」を追加しlastNameフィールドの値をセットしてください
+ */
+
 package lesson33main;
 import lesson33person.Person;
 class Main{
