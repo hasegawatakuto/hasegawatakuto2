@@ -15,8 +15,8 @@ public class ConsoleLogic {
     }
 	public void printOutput() {
         System.out.println(this.greeting);
-        System.out.println("この" + name + "はうまい");
-        System.out.println( name + "は和食です");
+        System.out.println("この" + this.name + "はうまい");
+        System.out.println( this.name + "は和食です");
         System.out.println(this.datetime);
     }
 	

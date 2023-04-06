@@ -25,7 +25,6 @@ public class Main {
 		// TODO 自動生成されたメソッド・スタブ
 		ConsoleLogic logic = new ConsoleLogic();
 		logic.printOutput();
-
 	}
 
 }
