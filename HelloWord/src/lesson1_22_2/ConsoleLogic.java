@@ -5,8 +5,7 @@ import java.time.format.DateTimeFormatter;
 
 public class ConsoleLogic {
 	private String greeting = "こんにちは！ここは日本です！";
-	private String sushitaste ="この寿司はうまい";
-	private String sushitype = "寿司は和食です";
+	private String name = "寿司";
 	private String datetime;
 	
 	public ConsoleLogic() {
@@ -16,8 +15,8 @@ public class ConsoleLogic {
     }
 	public void printOutput() {
         System.out.println(this.greeting);
-        System.out.println(this.sushitaste);
-        System.out.println(this.sushitype);
+        System.out.println("この" + name + "はうまい");
+        System.out.println( name + "は和食です");
         System.out.println(this.datetime);
     }
 	
