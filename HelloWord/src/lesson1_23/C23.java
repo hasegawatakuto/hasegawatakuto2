@@ -13,14 +13,14 @@ package lesson1_23;
 
 public class C23 {
 	private String name;
-	private double bodylength;
+	private double bodyLength;
 	private double speed;
 	 
 	public C23() {}
 	
-	public C23(String name,double bodylength,double speed)
+	public C23(String name,double bodyLength,double speed)
 	{this.name = name;
-	this.bodylength = bodylength;
+	this.bodyLength = bodyLength;
 	this.speed = speed;
 	}
 
@@ -30,11 +30,11 @@ public class C23 {
 	public void setName(String name){
 		this.name = name;
 	}
-	public double getBodylength() {
-		return bodylength;
+	public double getBodyLength() {
+		return bodyLength;
 	}
-	public void setBodylength(double bodylength) {
-		this.bodylength = bodylength;
+	public void setBodyLength(double bodyLength) {
+		this.bodyLength = bodyLength;
 	}
 	public double getSpeed() {
 		return speed;
