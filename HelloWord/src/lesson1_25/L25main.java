@@ -1,5 +1,5 @@
 /*
- 
+
  名前を入力したら下記がコンソールに出力されるように作ってください
 	条件：数値は毎回変わるように作ってください
 	 	 サブクラスを使用してください
@@ -19,7 +19,7 @@
 	防御力：24
 
 	さあ冒険に出かけよう！
- 
+
  */
 
 package lesson1_25;
@@ -31,6 +31,6 @@ public class L25main {
 	public static void main(String[] args) { 
 		Scanner scanner = new Scanner(System.in);
 		//scaner文を使い名前を入力することで各パラメーターを表示させる。
-		 System.out.println(new Sub(scanner.nextLine())); 
-		 }
+		System.out.println(new Sub(scanner.nextLine())); 
+	}
 }
