@@ -9,7 +9,7 @@ package lesson29logic;
 list型を利用し都道府県の情報をlistをする。
 
 
-*/
+ */
 public class Lesson29logic {
 	private String name;
 	private String capital;
@@ -40,6 +40,6 @@ public class Lesson29logic {
 		this.area = area;
 	}
 	public String toString() {
-        return "都道府県名：" + name + "\n県庁所在地：" + capital + "\n面積：" + area + "km2";
-    }
+		return "都道府県名：" + name + "\n県庁所在地：" + capital + "\n面積：" + area + "km2";
+	}
 }
