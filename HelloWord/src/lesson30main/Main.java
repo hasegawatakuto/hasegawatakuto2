@@ -16,6 +16,7 @@ package lesson30main;
 import person_30.Person;
 class Main {
 	  public static void main(String[] args) {
+		//それぞれPerson1,2に引数（年齢、身長、体重）を入れる。
 	    Person person1 = new Person("鈴木太郎",20,1.7,86.7);
 	    person1.print();
 	    Person person2 = new Person("山田花子",22,1.5,56.25);
