@@ -1,5 +1,6 @@
 package person_30;
 
+
 import bicycle_31.Bicycle;
 import car_31.Car;
     //コントラスタを定義。
