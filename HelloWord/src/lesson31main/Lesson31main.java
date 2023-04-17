@@ -27,9 +27,8 @@ import car_31.Car;
 import person_30.Person;
 
 public class Lesson31main {
-
+	
 	public static void main(String[] args) {
-		// TODO 自動生成されたメソッド・スタブ
 		Person person1 = new Person("鈴木太郎", 20, 1.7, 60);
 		  //person1.print();
 		  Person person2 = new Person("山田花子", 22, 1.5, 40);
@@ -38,14 +37,15 @@ public class Lesson31main {
 		  //Person.printCount();
 		 
 		  Car car = new Car();
+		  // インスタンスの生成
 		  Bicycle bicycle = new Bicycle();
-		 
+		  // Carのownerを鈴木太郎にセッティング
 		  car.setOwner(person1.name);
-
+          // bicycleのownerを山田花子にセッティング
 		  bicycle.setOwner(person2.name);
-
+          // Carとbicycleのownerの引数をコンソールに出力
 		  System.out.println(car.getOwner());  System.out.println(bicycle.getOwner());
-
+          // person1,person2のbuyメソッドにcarとbicycleを定義
 		  person1.buy(car);
 
 		  person2.buy(bicycle);
