@@ -8,7 +8,7 @@ public class Person{
 	public double height, weight;
 	// Personメソッドに引数を入れてcount++で人数の数を追加。
 	public Person(String firstName, String lastName, int age, double height, double weight){
-		Person.count++;
+		count++;
 		this.firstName = firstName;
 		this.lastName = lastName;
 		this.age = age;
@@ -30,6 +30,6 @@ public class Person{
 	}
 	// printCountメソッドに人数の数を出す文書を記入。
 	public static void printCount(){
-		System.out.println("合計" + Person.count + "人です");
+		System.out.println("合計" + count + "人です");
 	}
 }
