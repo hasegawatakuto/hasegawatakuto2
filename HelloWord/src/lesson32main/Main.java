@@ -29,5 +29,6 @@ class Main{
 		person2.print();
 		// Personクラスで作ったprintCountメソッドを使いコンソールに出力する。
 		Person.printCount();
+	
 }
 }

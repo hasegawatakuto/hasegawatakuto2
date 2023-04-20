@@ -8,7 +8,7 @@ public class Person{
 	public double weight;
 	// Personメソッドに引数を入れてcount++で人数の数を追加。
 	public Person(String name, int age, double height, double weight){
-		Person.count++;
+		count++;
 		this.name = name;
 		this.age = age;
 		this.height = height;
